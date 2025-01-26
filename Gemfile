@@ -6,21 +6,9 @@ source "https://rubygems.org"
 #     bundle exec jekyll serve
 #
 # Check github pages versions here: https://pages.github.com/versions/
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-# NB: github pages own advice to comment this out:
-# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
-# gem "jekyll", "~> 4.3.4"
 
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.5"
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
-# If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-  gem "github-pages", "~> 232"
+  gem "jekyll-feed"
+  gem "github-pages"
 end
 
